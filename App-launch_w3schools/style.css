@@ -132,6 +132,7 @@
    margin: auto 1%;
    height: 80%;
     border-radius: 10px;
+    filter: grayscale(0.7);
     /* position: relative;
     top: 5vh;
     left: 1vh; */
