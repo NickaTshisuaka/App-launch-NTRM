@@ -145,7 +145,7 @@
 }
 
 .theapp button {
-    width: 33vh;
+    width: 39vh;
     height: 7vh;
     margin: 2vh 0 0 0;
     border: none;
@@ -261,7 +261,7 @@
     height: 100%;
     text-align: center;
     display: block;
-    font-size: 25px;
+    font-size: 15px;
 }
 
 .icons2 {
@@ -270,15 +270,20 @@
 }
 
 .icons2 i {
-    font-size: 39px;
+    font-size: 26px;
 }
-
+.icons2 i:hover{
+    opacity: 75%;
+}
 .iconsonly {
     margin-bottom: 1.5%;
 }
 
 .icons a {
     color: black;
+}
+.icons a:hover{
+    color: #4caf50;
 }
 
 /*pricing/packages styling*/
@@ -418,12 +423,14 @@
 .content {
     flex: 2;
     padding: 20px;
-    margin: auto;
+    margin: auto 0 auto 5%;
+    height: 80%;
+   
 }
 
 .clarity h1 {
     font-size: 4em;
-    margin-bottom: 4vh;
+    margin-bottom: 2vh;
     font-weight: 600;
 }
 
@@ -431,21 +438,21 @@
     font-size: 3em;
     color: #e74c3c;
     font-weight: bold;
-    margin-bottom: 2vh;
+    margin-bottom: 1vh;
 }
 
-.clarity strong {
-    font-size: 1.5em;
-    font-weight: 200;
+.clarity h6 {
+    font-size: 1.4em;
+    font-weight: 400;
+    display: inline;
 }
 
 .clarity p {
-    font-size: 2em;
-    color: #333;
+    font-size: 1.5em;
+    color: black;
 }
 
 .description {
-    font-weight: lighter;
-    font-size: 0.9em;
-    color: #666;
+    
+    
 }
